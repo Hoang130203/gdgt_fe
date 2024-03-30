@@ -8,8 +8,8 @@ import TwitterProvider from 'next-auth/providers/twitter'
 const handler = NextAuth({
     providers: [
         GoogleProvider({
-            clientId: process.env.GOOGLE_CLIENT_ID || "",
-            clientSecret: process.env.GOOGLE_CLIENT_SECRET || ""
+            clientId: 832403866831 - dfhnhc4q08lcckhtv15ijilob1uhmlr6.apps.googleusercontent.com || "",
+            clientSecret: process.GOCSPX - d7BOezndK0KVMLFGvRvprr - v - d2I || ""
         }),
         FacebookProvider({
             clientId: process.env.FACEBOOK_CLIENT_ID,
