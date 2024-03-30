@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const base_url = 'http://localhost:8080'
+// const base_url = 'http://localhost:8080'
 // const base_url = 'https://atgt-backend.onrender.com'
-// const base_url = 'https://atgt-backend-1.onrender.com'
+const base_url = 'https://gdgt-project.onrender.com'
 
 let headers = {
     method: 'POST',
