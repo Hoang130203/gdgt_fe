@@ -82,12 +82,12 @@ function FormPost({ handleClick }) {
             <div className={styles.form_post_info}>
                 <Grid container padding='10px 0px'>
                     <Grid item xs={2} container justifyContent='center'>
-                        <Avatar style={{ width: '42px', height: '42px' }} src={avatar ?? 'https://png.pngtree.com/background/20230517/original/pngtree-beautiful-wallpaper-for-your-desktop-13-best-lions-wallpapers-images-picture-image_2637544.jpg'}>
+                        <Avatar style={{ width: '42px', height: '42px' }} src={avatar}>
                         </Avatar>
                     </Grid>
                     <Grid container item xs={10}>
                         <Grid item xs={12} style={{ fontWeight: '600', height: '20px' }}>
-                            {user ?? 'Mai Minh Hoang'}
+                            {user ?? ''}
                         </Grid>
                         <Grid item style={{ height: '20px' }} >
                             <button style={{ textAlign: 'center', padding: '1px 10px', fontWeight: '500', border: 'none', cursor: 'pointer', borderRadius: '8px' }}>
