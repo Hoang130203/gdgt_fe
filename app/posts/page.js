@@ -46,7 +46,7 @@ function Posts() {
             <Grid container item style={{ width: '800px', height: '130px', maxWidth: '92%', backgroundColor: '#fff', marginBottom: '20px' }} className={styles.border_div}>
                 <Grid item container display='flex' justifyContent='center' padding='10px 0px' >
                     <Grid item xs={2} md={1}>
-                        <Avatar style={{ width: '45px', height: '45px', marginRight: '20px' }} src={avatar ?? "https://png.pngtree.com/background/20230517/original/pngtree-beautiful-wallpaper-for-your-desktop-13-best-lions-wallpapers-images-picture-image_2637544.jpg"}></Avatar>
+                        <Avatar style={{ width: '45px', height: '45px', marginRight: '20px' }} src={avatar}></Avatar>
                     </Grid>
                     <Grid item xs={9} md={10} >
                         <button className={styles.button_newpost} onClick={handleClick}>
