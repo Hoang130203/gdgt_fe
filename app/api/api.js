@@ -2,12 +2,15 @@ import axios from "axios";
 
 // const base_url = 'http://localhost:8080'
 // const base_url = 'https://atgt-backend.onrender.com'
-const base_url = 'https://gdgt-project.onrender.com'
+// const base_url = 'https://gdgt-project.onrender.com'
+const base_url = 'https://colt-easy-kindly.ngrok-free.app'
 
 let headers = {
     method: 'POST',
     headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        "ngrok-skip-browser-warning": "69420",
+
     },
     "Access-Control-Allow-Origin": "*", // CORS
 
@@ -23,7 +26,9 @@ let headersauth = {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Basic ${btoa(`${username}:${password}`)}`
+        'Authorization': `Basic ${btoa(`${username}:${password}`)}`,
+        "ngrok-skip-browser-warning": "69420",
+
         // 'Authorization': `Basic ${btoa('vM94gZtgEB:h27KSuVMmj')}`
 
     },
