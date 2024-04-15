@@ -10,7 +10,7 @@ export default function Home() {
     'Tuổi dậy thì có điều gì kì diệu'];
 
   return (
-    <main className={styles.main} style={{ padding: '30px 30px', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', justifyContent: 'center', backgroundImage: 'url("https://cdcvinhphuc.vn/wp-content/uploads/2023/05/cdcvinhphuc-suckhoesinhsanvtn.jpg")' }}>
+    <main className={styles.main} style={{ padding: '30px 30px', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', justifyContent: 'center', backgroundImage: 'url("https://i.ytimg.com/vi/AWlXyZPHjoA/hqdefault.jpg")', backgroundSize: '1080px 800px' }}>
       <Grid container maxWidth='100%'>
         <EmojiRain />
 
