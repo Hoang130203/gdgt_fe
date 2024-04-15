@@ -5,7 +5,7 @@ function Document() {
     return (
         <div style={{ minHeight: '800px', padding: '20px' }}  >
             <h1 style={{ fontSize: '30px' }}>
-                Cuộc thi tìm hiểu an toàn giao thông cho nụ cười ngày mai
+                Tài liệu về giáo dục sức khỏe sinh sản
             </h1>
             <div>1. truyền thông chăm sóc sức khỏe sinh sản: &nbsp;&nbsp;
                 <a href='https://docs.google.com/presentation/d/1S5MM9AnainQoHh-LuJSFXorm-IieCYPy/edit#slide=id.p1'>Tại đây</a>
