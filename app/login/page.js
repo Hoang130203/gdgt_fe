@@ -46,11 +46,14 @@ export default function SignIn() {
                         localStorage.setItem('avatar', res.data.avatar)
                         window.location.href = "/"
                     }
+                    else {
+                        alert("Đăng nhập thất bại, vui lòng kiểm tra lại thông tin đăng nhập")
+                    }
                 })
 
 
         } catch (error) {
-
+            alert("Đăng nhập thất bại, vui lòng kiểm tra lại thông tin đăng nhập")
         }
     }
     return (
