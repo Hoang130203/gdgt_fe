@@ -61,7 +61,13 @@ class Api {
         return await axios.post(`${base_url}/api/users/login?account=${account}&password=${password}&hasprovider=${provider}`, headers);
 
     }
-
+    async register(account, password, name) {
+        return await axios.post(`${base_url}/api/users/signup`, {
+            "name": name,
+            "account": account,
+            "password": password
+        }, headers);
+    }
     async upPost(title, content, image) {
         console.log(headersauth)
         return await axios.post(`${base_url}/api/users/uppost?ownerId=${user}`, {
