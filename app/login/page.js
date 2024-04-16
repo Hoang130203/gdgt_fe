@@ -49,6 +49,9 @@ export default function SignIn() {
                     else {
                         alert("Đăng nhập thất bại, vui lòng kiểm tra lại thông tin đăng nhập")
                     }
+                }).catch
+                (error => {
+                    alert("Đăng nhập thất bại, vui lòng kiểm tra lại thông tin đăng nhập")
                 })
 
 
