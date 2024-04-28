@@ -142,7 +142,7 @@ function ExamDetail({ params }) {
                 <p style={{ color: 'red' }}>
                     {minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
                 </p>
-                <h1>Cuộc thi ATGT</h1>
+                <h1>Cuộc thi tìm hiểu về sức khỏe sinh sản</h1>
                 <div className="quiz">
                     <h2 id="question">{questionText}</h2>
                     <div id="answer-buttons">

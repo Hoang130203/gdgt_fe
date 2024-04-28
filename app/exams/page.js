@@ -154,7 +154,15 @@ function Exams() {
                         </Grid>
                     </CustomTabPanel>
                     <CustomTabPanel value={value} index={1} >
-                        <img src='./detailed.png'></img>
+                        <h1 style={{ fontSize: '30px' }}>
+                            Tài liệu về giáo dục sức khỏe sinh sản
+                        </h1>
+                        <div>Câu hỏi tìm hiểu về sức khỏe sinh sản &nbsp;&nbsp;
+                            <a href='https://docs.google.com/document/d/1GuP1m6OdlHwW4CmkRXBQUqb_LhwnLYT2/edit?usp=sharing&ouid=100393540981120231320&rtpof=true&sd=true'>Tại đây</a>
+                        </div>
+                        <div>Đáp án tìm hiểu về sức khỏe sinh sản &nbsp;&nbsp;
+                            <a href='https://docs.google.com/document/d/1lTMy3M9YwvJwtC11nquDaqBDl7rjEgCP/edit?usp=sharing&ouid=100393540981120231320&rtpof=true&sd=true'>Tại đây</a>
+                        </div>
                     </CustomTabPanel>
                 </Grid>
             </Grid>
