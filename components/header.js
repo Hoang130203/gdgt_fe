@@ -66,7 +66,7 @@ function Header() {
                 <div className="container" style={{ width: '100%' }}>
                     <div className="navbar-brand" >
                         <Link className="navbar-item" href="/" style={{ marginRight: '30px' }}>
-                            <img src="/gdgt.jpg" style={{ maxHeight: '40px' }} />
+                            <img src="https://png.pngtree.com/png-vector/20190729/ourlarge/pngtree-arrows-career-direction-employee-human-person-ways-abstrac-png-image_1623923.jpg" style={{ maxHeight: '40px' }} />
                         </Link>
                         <div className={`navbar-burger burger ${show ? 'is-active' : ''}`} data-target="topNav"
                             onClick={handleshow}

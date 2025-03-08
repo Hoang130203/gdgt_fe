@@ -6,11 +6,11 @@ import Link from "next/link";
 import Typical from 'react-typical';
 import EmojiRain from "../components/EmojiRain";
 export default function Home() {
-  const stepsContent = [`Một phút lầm lỡ, đánh mất tương lai`,
-    'Tuổi dậy thì có điều gì kì diệu'];
-
+  // const stepsContent = [`Một phút lầm lỡ, đánh mất tương lai`,
+  //   'Tuổi dậy thì có điều gì kì diệu'];
+  const stepsContent = [``];
   return (
-    <main className={styles.main} style={{ padding: '30px 30px', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', justifyContent: 'center', backgroundImage: 'url("https://i.ytimg.com/vi/AWlXyZPHjoA/hqdefault.jpg")', backgroundSize: '1080px 800px' }}>
+    <main className={styles.main} style={{ padding: '30px 30px', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', justifyContent: 'center', backgroundImage: 'url("https://huongnghiepaau.edu.vn/wp-content/uploads/2021/03/Lam-sao-de-chon-dung-nghe.png.jpg")', backgroundSize: '1080px 800px' }}>
       <Grid container maxWidth='100%'>
         <EmojiRain />
 
