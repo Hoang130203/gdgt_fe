@@ -82,7 +82,6 @@ function Header() {
                             <Link className="navbar-item" href="/">Trang chủ</Link>
                             <Link className="navbar-item" href="/posts">Bài viết</Link>
                             <Link className="navbar-item" href="/videos">Video</Link>
-                            <Link className="navbar-item" href="/exams">Cuộc thi</Link>
                             <Link className="navbar-item" href="/images">Hình ảnh</Link>
                             <Link className="navbar-item" href="/documents">Tài liệu</Link>
                         </div>
