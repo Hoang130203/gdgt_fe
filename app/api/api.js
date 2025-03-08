@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const base_url = 'https://gdgt.maiminhhoang.id.vn'
-const base_url = 'http://localhost:8087'
+const base_url = 'https://gdgt.maiminhhoang.id.vn'
+// const base_url = 'http://localhost:8087'
 // const base_url = 'https://atgt-backend.onrender.com'
 // const base_url = 'https://gdgt-project.onrender.com'
 // const base_url = 'https://colt-easy-kindly.ngrok-free.app'
