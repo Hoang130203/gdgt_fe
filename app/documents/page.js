@@ -18,7 +18,7 @@ function Document() {
                 <a href='https://docs.google.com/document/d/13T8Nn-lmpZ1k_fl2K_ssi6W-TdlyhHyC/edit'>Tại đây</a>
             </div>
             <div>
-                4. Top 5 ngành học đang 'hốt bạc' tại Việt Nam Ra trường có ngay lương 50 triệu tháng: &nbsp;&nbsp;
+                4. Top 5 ngành học đang &apos;hốt bạc&apos; tại Việt Nam Ra trường có ngay lương 50 triệu tháng: &nbsp;&nbsp;
                 <a href='https://docs.google.com/document/d/13V8ltZcoTkxXLXxOh0Tm3YrPbv3uhqAe/edit'>Tại đây</a>
             </div>
             <div>
