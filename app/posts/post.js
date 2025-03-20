@@ -18,7 +18,7 @@ function Post({ id, title, image, time, username, useravatar }) {
             <Grid container item xs={12} height='40%' style={{ opacity: '0.8', cursor: 'pointer' }}>
                 <div style={{ width: '100%', height: '24px', zIndex: '1', background: 'linear-gradient(rgba(212, 212, 212, 0) 0%, rgb(212, 212, 212) 100%)' }}></div>
                 <Grid container sx={{ height: 'calc(100% - 24px)', bgcolor: '#d4d4d4', padding: '3px 20px' }} >
-                    <Grid item xs={12}>Sức khỏe sinh sản</Grid>
+                    <Grid item xs={12}>Tuyển sinh</Grid>
                     <Grid item xs={12} style={{ maxHeight: '3em', overflow: 'hidden', textOverflow: 'ellipsis', fontWeight: '600' }}>
                         <Link href={`/posts/detail/${id}`}>
                             {title}
